@@ -34,7 +34,7 @@ program
       const repo = program.repo ? program.repo : REPO;
       clone(dir, repo);
       if (program.auth) {
-        pull("auth")
+        pull(dir, "auth")
       }
       removeGit(dir);
       // createRepo(dir);
