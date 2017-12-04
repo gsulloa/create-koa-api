@@ -37,7 +37,7 @@ program
         pull(dir, "auth")
       }
       removeGit(dir);
-      // createRepo(dir);
+      createRepo(dir);
     })
   })
   .parse(process.argv)

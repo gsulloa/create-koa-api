@@ -4,13 +4,14 @@ Scrip to automatically create a Koa app API. The template used is in this [repo]
 ## Getting Started
 
 ### Requirements
-- node >= 8.5.0
-- yarn >= 1.0.1
+- [node](https://nodejs.org/) >= 8.5.0
+- [yarn](https://yarnpkg.com/) >= 1.0.1
+- [hub](https://github.com/github/hub)
 
 ### Installation
 Install with yarn globally
 ```sh
-$ yarn global add ...
+$ yarn global add create-koa-api
 ```
 ### Usage
 
