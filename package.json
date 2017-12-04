@@ -1,0 +1,20 @@
+{
+  "name": "create-react-boilerplate",
+  "version": "0.1.0",
+  "description": "create a ReactApp from an boilerplate",
+  "main": "index.js",
+  "author": "gulloa",
+  "license": "MIT",
+  "dependencies": {
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.11.0",
+    "shelljs": "^0.7.8"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "bin": {
+    "create-react-boilerplate": "./index.js"
+  }
+}
