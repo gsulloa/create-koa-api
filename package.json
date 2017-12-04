@@ -1,7 +1,7 @@
 {
-  "name": "create-react-boilerplate",
+  "name": "create-koa-api",
   "version": "0.1.0",
-  "description": "create a ReactApp from an boilerplate",
+  "description": "create a Koa API from a template",
   "main": "index.js",
   "author": "gulloa",
   "license": "MIT",
@@ -15,6 +15,6 @@
     "start": "node index.js"
   },
   "bin": {
-    "create-react-boilerplate": "./index.js"
+    "create-koa-api": "./index.js"
   }
 }
